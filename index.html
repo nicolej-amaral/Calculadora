@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Calculadora Simples</title>
 </head>
-<body>
-    <h1>Calculadora Simples</h1>
+
+<body class="fundo">
+    <h1 class="titulo">Calculadora Simples</h1>
+
     <div class="calculadora">
-        <input type="text" id="display" disabled>
-        <div class="botoes">
-            <button onclick="apagar()"><</button>
-            <button onclick="anexar('/')">/</button>
-            <button onclick="anexar('*')">*</button>
-            <button onclick="anexar('7')">7</button>
-            <button onclick="anexar('8')">8</button>
-            <button onclick="anexar('9')">9</button>
-            <button onclick="anexar('-')">-</button>
-            <button onclick="anexar('4')">4</button>
-            <button onclick="anexar('5')">5</button>
-            <button onclick="anexar('6')">6</button>
-            <button onclick="anexar('+')">+</button>
-            <button onclick="anexar('1')">1</button>
-            <button onclick="anexar('2')">2</button>
-            <button onclick="anexar('3')">3</button>
-            <button class="botao-zero" onclick="anexar('0')">0</button>
-            <button onclick="anexar('.')">.</button>
-            <button class="botao-result" onclick="calcular()">=</button>
+        <input class=type="text" id="display" disabled>
+
+
+        <div>
+
+
+            <button class="botao-zero" onclick="anexar('7')">7</button>
+            <button class="botao-zero" onclick="anexar('8')">8</button>
+            <button class="botao-zero" onclick="anexar('9')">9</button>
+            <button class="botao-zero" onclick="apagar()">
+                < </button>
         </div>
-    </div>
-    <script src="calculadora.js"></script>
+
+        <div>
+
+            <button class="botao-zero" onclick="anexar('4')">4</button>
+            <button class="botao-zero" onclick="anexar('5')">5</button>
+            <button class="botao-zero" onclick="anexar('6')">6</button>
+            <button class="botao-zero" onclick="anexar('/')">/</button>
+
+        </div>
+
+        <div>
+
+            <button class="botao-zero" onclick="anexar('1')">1</button>
+            <button class="botao-zero" onclick="anexar('2')">2</button>
+            <button class="botao-zero" onclick="anexar('3')">3</button>
+
+            <button class="botao-zero" onclick="anexar('+')">+</button>
+
+        </div>
+
+        <div>
+            <button class="botao-zero" onclick="anexar('0')">0</button>
+            <button class="botao-zero" onclick="anexar('*')">*</button>
+            <button class="botao-zero" onclick="anexar('-')">-</button>
+
+            <button class="botao-zero" onclick="anexar('.')">.</button>
+
+            <div>
+            <button class="igual" onclick="calcular()">=</button>
+            </div>
+        </div>
+
+
+
+        </div>
+
+        <script src="calculadora.js"></script>
 </body>
+
 </html>
-
-
-
-
 
 </body>
 <script src="calculadora.js"></script>

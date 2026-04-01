@@ -1,1 +1,67 @@
+ .fundo{
+    background-color: rgb(133, 186, 202);
+ }
+ .titulo{
+     color: rgb(133, 186, 202);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+ }
+
  
+
+ .calculadora{
+    text-align: center;
+   background-size: 20px;
+    margin: 3px auto; 
+    padding: 10px; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: fit-content;
+    border: 10px;
+ }
+
+ .main{
+    align-items: flex-start;
+   display: flex; 
+}
+
+.botao-zero{
+    width: 150px;
+    height: 150px;
+   margin: 3px; 
+   color: rgb(255, 255, 255);
+   border-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    background-color:rgb(133, 186, 202);
+    size: 10px;
+}
+
+
+.igual{
+    width: 630px;
+    height: 100px;
+   margin: 3px; 
+   color: rgb(255, 255, 255);
+   border-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    background-color:rgb(133, 186, 202);
+    
+}
+
+
+#display{
+     width: 620px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: rgb(133, 186, 202);;
+
+}
+
