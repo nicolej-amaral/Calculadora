@@ -29,7 +29,7 @@
 .botao-zero{
     width: 150px;
     height: 150px;
-   margin: 3px; 
+   margin: 10px; 
    color: rgb(255, 255, 255);
    border-color: rgb(255, 255, 255);
     border: none;
@@ -37,12 +37,15 @@
     cursor: pointer;
     transition: .3s;
     background-color:rgb(133, 186, 202);
-    size: 10px;
+    font-size: 40px;
+    
+
+
 }
 
 
 .igual{
-    width: 630px;
+    width: 670px;
     height: 100px;
    margin: 3px; 
    color: rgb(255, 255, 255);
@@ -57,7 +60,9 @@
 
 
 #display{
-     width: 620px;
+    
+    font-size: 40px;
+     width: 650px;
     height: 80px;
     margin: 10px;
     border-radius: 10px;
